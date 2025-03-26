@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ContactList
 {
-    public partial class MainForm : Form
+    public partial class AddContactForm : Form
     {
-        public MainForm()
+        public AddContactForm()
         {
             InitializeComponent();
         }
@@ -21,7 +21,6 @@ namespace ContactList
         {
             AddContactForm addForm = new AddContactForm();
             addForm.ShowDialog();
-        
-    }
+        }
     }
 }
